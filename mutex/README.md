@@ -9,7 +9,7 @@ a.1. use the printing service from 2 different tasks simultaniously
 b. [solution] treat the printing service as a critical section (shared resource) 
 b.1 lock access to the service while it is being used:
 2.1 use a mutex to protect the access
-- [demo Pages](https://wokwi.com/projects/353392526627934209).
+- [mutex demo](https://wokwi.com/projects/353392526627934209).
 
 2.2 use a queue to protect the access
  
